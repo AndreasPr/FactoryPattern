@@ -4,6 +4,7 @@ package com.company;
  * Created on 22/Oct/2022 to FactoryPattern
  */
 public class ShapeFactory {
+
     //getShape: method to get object of type Shape
     public Shape getShape(String shapeType){
         if (shapeType == null){

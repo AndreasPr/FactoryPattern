@@ -9,6 +9,9 @@ public class Main {
         Shape shape1 = shapeFactory.getShape("CIRCLE");
         shape1.draw();
 
+        Shape shape2 = shapeFactory.getShape("RECTANGLE");
+        shape2.draw();
+
 
     }
 }
